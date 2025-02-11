@@ -1,0 +1,59 @@
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .hero {
+            background: url('bg-valentines.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .btn {
+            display: inline-block;
+            background: #ce1212;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .section-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .section-container img {
+            width: 50%;
+            border-radius: 10px;
+        }
+        .text-content {
+            width: 50%;
+            padding: 20px;
+        }
+        .text-content h2 {
+            color: #333;
+            font-size: 1.8em;
+        }
+        .text-content ul {
+            list-style: none;
+            padding: 0;
+        }
+        .text-content ul li {
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+        }
+    
